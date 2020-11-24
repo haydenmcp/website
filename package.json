@@ -1,0 +1,12 @@
+{
+  "name": "hayden.mcparlane.com",
+  "version": "0.0.1",
+  "description": "My personal website.",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:haydenmcp/website",
+    "type": "git"
+  },
+  "author": "Hayden McParlane",
+  "license": "MIT"
+}
