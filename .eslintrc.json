@@ -1,0 +1,4 @@
+{
+  "extends": ["plugin:polymer/polymer-3", "prettier"],
+  "plugins": ["polymer"]
+}
