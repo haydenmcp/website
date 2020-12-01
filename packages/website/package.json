@@ -9,7 +9,7 @@
   "author": "Hayden McParlane",
   "license": "MIT",
   "scripts": {
-    "dev": "serve build",
+    "dev": "TODO",
     "prod": "TODO",
     "copyindex": "cp src/index.html build",
     "copywc": "cp -r node_modules/@webcomponents/webcomponentsjs/bundles build && cp node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js build",
@@ -19,10 +19,11 @@
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/plugin-proposal-decorators": "^7.2.3",
+    "@webcomponents/webcomponentsjs": "^2.2.4",
     "rollup": "^1.1.0",
     "rollup-plugin-babel": "^4.3.0",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "@webcomponents/webcomponentsjs": "^2.2.4",
+    "rollup-plugin-serve": "^1.1.0",
     "serve": "^10.1.1"
   },
   "dependencies": {
