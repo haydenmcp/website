@@ -1,6 +1,6 @@
 import { html, LitElement, property } from "lit-element";
 
-class MyElement extends LitElement {
+class MainApp extends LitElement {
   @property({ type: String }) myProp = "stuff";
   render() {
     return html`
@@ -10,4 +10,4 @@ class MyElement extends LitElement {
   }
 }
 
-customElements.define("my-element", MyElement);
+customElements.define("main-app", MainApp);
